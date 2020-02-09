@@ -4,13 +4,13 @@ import myPhoto from "../images/myPhoto.jpg";
 const Hero = () => {
     return (
         <section>
-            <img className="Hero__photo" 
+            <img className="hero__photo" 
                 src={myPhoto}
                 alt="Laura Herrero"/>
-            <div className="Hero__wrapper">
-                <h1 className="Hero__title">Laura Herrero</h1>
-                <div className="Hero__bar" />
-                <h2 className="Hero__position">Front-end developer</h2>
+            <div className="hero__wrapper">
+                <h1 className="hero__title">Laura Herrero</h1>
+                <div className="hero__bar" />
+                <h2 className="hero__position">Front-end developer</h2>
             </div>
         </section>
     );

@@ -5,9 +5,9 @@
 //@import 'core/variables';
 
 //Layout
-//@import 'layout/header';
+//@import 'layout/menu';
 //@import 'layout/presentation';
-//@import 'layout/skills';
+@import 'layout/skills';
 //@import 'layout/projects';
 //@import 'layout/contact';
 //@import 'layout/footer';
@@ -15,5 +15,5 @@
 //Pages
 
 //Components
-//@import 'components/hero';
+@import 'components/hero';
 //@import 'components/buttons';
