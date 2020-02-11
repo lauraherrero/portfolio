@@ -2,12 +2,12 @@ const hardSkills = [
     {
       id: 1,
       name: "HTML5",
-      img: require("../images/ht.png"),
+      img: require("../images/html.svg"),
     },
     {
       id: 2,
       name: "CSS3",
-      img: require("../images/cs.png"),
+      img: require("../images/css.svg"),
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const hardSkills = [
     {
       id: 6,
       name: "JavaScript",
-      img: require("../images/jav.png"),
+      img: require("../images/javascript.png"),
     },
     {
       id: 7,
@@ -66,17 +66,17 @@ const hardSkills = [
       img: require("../images/github.svg"),
     },
     {
-      id: 18,
+      id: 14,
       name: "Agile-Scrum",
       img: require("../images/agile-scrum.png"),
     },
     {
-      id: 19,
+      id: 15,
       name: "Trello",
       img: require("../images/trello.svg"),
     },
     {
-      id: 20,
+      id: 16,
       name: "VSCode",
       img: require("../images/visual-studio.svg"),
     },

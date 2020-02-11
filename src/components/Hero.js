@@ -3,7 +3,7 @@ import myPhoto from "../images/myPhoto.jpg";
 
 const Hero = () => {
     return (
-        <section>
+        <section className="hero">
             <img className="hero__photo" 
                 src={myPhoto}
                 alt="Laura Herrero"/>

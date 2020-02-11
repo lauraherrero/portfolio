@@ -1,4 +1,28 @@
+.hero{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(32, 121, 199);
+}
 .hero__photo{
     width: 350px;
     height: 300p;
+}
+.hero__wrapper{
+    display: flex;
+    flex-direction: column;
+    // text-align: center;
+    // align-items: center;
+    // justify-content: center;
+}
+.hero__title{
+    font-size: 100px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.hero__position{
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
 }
