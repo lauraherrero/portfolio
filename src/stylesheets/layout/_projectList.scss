@@ -1,0 +1,23 @@
+.list__wrapper{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    &--title{
+        margin: 0;
+        padding: 20px;
+        padding-bottom: 50px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 40px;
+        text-align: center;
+    }
+   
+}
+.item__bar{
+    border-bottom: 2px solid #252525;
+    width: 300px;
+    align-items: center;
+    margin-left: 140px;
+}

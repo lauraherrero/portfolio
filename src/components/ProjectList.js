@@ -4,19 +4,20 @@ import ProjectItem from './ProjectItem';
 
 const ProjectList = () => {
     return (
-        <section>
-            <h2>Proyectos</h2>
-            <ul>
+        <section className="list__wrapper">
+            <h2 className="list__wrapper--title">Proyectos</h2>
+            <ul className="list__wrapper--container">
                 {projectsData
                     .map(project => {
                         return (
-                            <li key={project.id}>
+                            <li className="list__wrapper--content" key={project.id}>
                                 <ProjectItem    
                                     img={project.img}
                                     name={project.name}
                                     description={project.description}
                                     url={project.url}
                                 />
+                                <div className="item__bar" />
                             </li>
                         );
                     })}

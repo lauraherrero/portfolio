@@ -1,15 +1,31 @@
 .aboutme{
     background-color: rgb(0, 0, 0);
-    color: rgb(32, 121, 199);
+    color: #72D0C2;
     padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-
-.aboutme__title{
+.aboutme__photo{
+    width: 350px;
+    height: 300p;
+    border-radius: 15px;
+    margin-right: 45px;
+}
+.aboutme__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.aboutme__content--title{
     font-family: 'Merriweather Sans', sans-serif;
+    font-size: 30px;
     margin: 0;
     color: rgb(255, 255, 255);
 }
 
-.aboutme__text{
-    font-family: 'Merriweather Sans', sans-serif
+.aboutme__content--text{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
 }

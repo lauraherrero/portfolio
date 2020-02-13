@@ -1,29 +1,40 @@
 .skills__wrapper{
-    padding: 0, 20px;
+    padding: 20px;
+    background-image: radial-gradient(circle, #72d0c2, #82d8ca, #92e0d2, #a1e9da, #b0f1e3, #b0f1e3, #b0f1e3, #b0f1e3, #a1e9da, #92e0d2, #82d8ca, #72d0c2);
 
     &--title {
-        margin: 20px;
+        margin:0;
+        text-align: center;
+        padding-bottom: 20px;
         font-family: 'Merriweather Sans', sans-serif;
+        font-size: 40px;
     }
     &--list {
         display: grid;
-        grid-template-columns: repeat(auto-fit, 250px);
-        grid-gap: 5px;
+        grid-template-columns: repeat(auto-fit, 300px);
+        grid-gap: 8px;
         justify-content: center;
     }
     &--item {
-        background-color: rgb(6, 68, 44);
+        background-color: white;
         border-radius: 15px;
         display: flex;
         flex-direction: column;
-        //justify-content: center;
         align-items: center;
-        margin-bottom: 20px;
-        padding: 5px;
         font-weight: 700;
+        padding: 10px;
+        margin:8px;
+        color: black;
+        width: 280px; 
+        font-size: 17px;
+        font-family: 'Merriweather', sans-serif;
     }
     &--logo {
-        height: 70px;
+        height: 60px;
         width: auto;
+        margin: 3px;
     }
+}
+.skills__container{
+    padding: 30px;
 }

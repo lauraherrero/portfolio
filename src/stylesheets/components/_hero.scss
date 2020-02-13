@@ -1,15 +1,14 @@
 .hero{
+    width: 100%;
+    height: 100vh;
     padding: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
-    background-color: rgb(32, 121, 199);
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #72d0c2, #82d8ca, #92e0d2, #a1e9da, #b0f1e3, #b0f1e3, #b0f1e3, #b0f1e3, #a1e9da, #92e0d2, #82d8ca, #72d0c2);
 }
-.hero__photo{
-    width: 350px;
-    height: 300p;
-}
+
 .hero__wrapper{
     display: flex;
     flex-direction: column;
