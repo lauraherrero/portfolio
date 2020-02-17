@@ -3,7 +3,7 @@ import '../stylesheets/App.scss';
 import Menu from './Menu';
 import Hero from './Hero';
 import Main from './Main';
-//import Footer from './Footer';
+import Footer from './Footer';
 
 class App extends React.Component {
   constructor(props) {
@@ -38,7 +38,7 @@ class App extends React.Component {
         />
         <Hero />
         <Main />
-        {/* <Footer/> */}
+        <Footer />
       </Fragment>
     );
   }
