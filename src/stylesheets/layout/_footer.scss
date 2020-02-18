@@ -1,0 +1,54 @@
+@keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    } 
+    50% {
+      opacity: 1;
+    }
+}
+
+.contact__wrapper{
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    &--title{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 40px;
+        margin: 0;
+    }
+    
+    &--link{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 15px;
+    }
+    &--copy{
+        font-size: 16px;
+        color: #B5B5B5;
+    }
+}
+
+.icon{
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    margin: 10px;
+    padding: 8px;
+    animation-name: 'zoomIn';
+    animation-duration: 2s;
+    //transition: color ease 1s;
+    transition: background-color ease 1s;
+    border-radius: 10px;
+    &:hover{
+        color: #C4FCEF;
+        background-color: black;
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.4);
+        
+    }
+}

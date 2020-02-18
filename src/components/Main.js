@@ -2,7 +2,6 @@ import React, { Fragment } from 'react';
 import AboutMe from './AboutMe';
 import TechnicalSkills from './TechnicalSkills';
 import ProjectList from './ProjectList';
-import Contact from './Contact';
 
 const Main = () => {
     return (
@@ -10,7 +9,6 @@ const Main = () => {
             <AboutMe/>
             <TechnicalSkills/>
             <ProjectList/>
-            <Contact/>
         </Fragment>
     );
 };
