@@ -7,7 +7,7 @@ const data = [
     },
     {
         itemName: "Proyectos",
-        href: "#projects",
+        href: "#projectList",
     },
     {
         itemName: "Contacto",
@@ -18,11 +18,11 @@ const data = [
 const Menu = props => {
     return (
         <section>
-            <button className={props.isClose ? "Menu" : "Menu__close"}
+            {/* <button className={props.isClose ? "Menu" : "Menu__close"}
                 onClick={props.handleToggle}
                 title="menu"
                 type="button"
-            />
+            /> */}
             <nav>
                 <ul>
                     {
@@ -35,7 +35,7 @@ const Menu = props => {
                         })
                     }
                 </ul>
-            </nav>       
+            </nav>  
         </section>
     )
 }

@@ -4,7 +4,7 @@ import myPhoto from "../images/myPhoto.jpg";
 const AboutMe = () => {
     return (
     <div>
-        <div className="aboutme">
+        <div className="aboutme" id="aboutMe">
             <img className="aboutme__photo" 
                     src={myPhoto}
                     alt="Laura Herrero"/>

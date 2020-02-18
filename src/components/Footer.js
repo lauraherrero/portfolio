@@ -1,5 +1,6 @@
 import React from 'react';
 import contacts from '../data/contacts';
+import menu from '../data/menu';
 
 const Footer = () => {
     return (
@@ -20,7 +21,20 @@ const Footer = () => {
                     }
                 </ul>
             </nav>
-            <small className="contact__wrapper--copy">Made with <span><i class="fas fa-heart"></i></span> © Laura Herrero.</small>
+            <nav>
+                <ul>
+                    {
+                        menu.map((item, index) => {
+                            return (
+                                <li key={index}>
+                                    <a href={item.href}>{item.itemName}</a>
+                                </li>
+                            )
+                        })
+                    }
+                </ul>
+            </nav>
+            <small className="contact__wrapper--copy">Laura Herrero © 2020</small>
         </section>
     )
 }

@@ -4,7 +4,7 @@ import ProjectItem from './ProjectItem';
 
 const ProjectList = () => {
     return (
-        <section className="list__wrapper">
+        <section className="list__wrapper" id="projectList">
             <h2 className="list__wrapper--title">Proyectos</h2>
             <ul className="list__wrapper--container">
                 {projectsData
