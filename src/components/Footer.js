@@ -4,7 +4,7 @@ import menu from '../data/menu';
 
 const Footer = () => {
     return (
-        <section className="contact__wrapper">
+        <section className="contact__wrapper" id="footer">
             <h2 className="contact__wrapper--title">Contacto</h2>
             <nav>
                 <ul className="contact__wrapper--link">
@@ -22,12 +22,12 @@ const Footer = () => {
                 </ul>
             </nav>
             <nav>
-                <ul>
+                <ul className="contact__wrapper--menu">
                     {
                         menu.map((item, index) => {
                             return (
                                 <li key={index}>
-                                    <a href={item.href}>{item.itemName}</a>
+                                    <a className="contact__wrapper--text" href={item.href}>{item.itemName}</a>
                                 </li>
                             )
                         })

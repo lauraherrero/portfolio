@@ -5,6 +5,18 @@
     transform: scale(1.1) } 
 }
 
+@keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+}
+
 .contact__wrapper{
     width: 100%;
     padding: 20px;
@@ -22,9 +34,28 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    &--menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         margin: 15px;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 20px;
+    }
+
+    &--text{
+        text-decoration: none;
+        animation-name: 'zoomIn';
+        animation-duration: 2s;
+        &:hover{
+            color: black;
+            transform: scale(1.7);
+        }
     }
     &--copy{
+        margin: 25px;
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
         color: #B8B8B9;
@@ -35,7 +66,7 @@
     width: 45px;
     height: 45px;
     justify-content: center;
-    margin: 20px;
+    margin: 25px;
     padding: 8px;
     animation-name: 'zoomIn';
     animation-duration: 2s;
@@ -47,6 +78,5 @@
         background-color: black;
         box-shadow: 0 8px 10px rgba(0, 0, 0, 0.4);
         transform: scale(1.2)
-        
     }
 }

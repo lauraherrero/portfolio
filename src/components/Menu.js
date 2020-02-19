@@ -11,7 +11,7 @@ const data = [
     },
     {
         itemName: "Contacto",
-        href: "#contact",
+        href: "#footer",
     },
 ];
 
