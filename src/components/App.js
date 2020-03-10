@@ -12,7 +12,6 @@ class App extends React.Component {
       isClose: true,
     };
     this.handleToggle = this.handleToggle.bind(this);
-    this.closeMenu = this.closeMenu.bind(this);
   }
 
   handleToggle() {
@@ -21,11 +20,6 @@ class App extends React.Component {
     });
   }
 
-  closeMenu() {
-    this.setState({
-      isClose: true,
-    });
-  }
 
   render() {
     const { isClose } = this.state;

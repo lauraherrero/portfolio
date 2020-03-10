@@ -18,18 +18,18 @@ const data = [
 const Menu = props => {
     return (
         <section>
-            {/* <button className={props.isClose ? "Menu" : "Menu__close"}
+            <button className={props.isClose ? "Menu btn" : "Menu__close btn"}
                 onClick={props.handleToggle}
                 title="menu"
                 type="button"
-            /> */}
-            <nav>
+            />
+            <nav className={props.isClose ? "hide" : "show"}>
                 <ul>
                     {
                         data.map((item, index) => {
                             return (
-                                <li key={index}>
-                                    <a href={item.href}>{item.itemName}</a>
+                                <li className="Menu__item" key={index}>
+                                    <a className="Menu__item--link" href={item.href}>{item.itemName}</a>
                                 </li>
                             )
                         })
