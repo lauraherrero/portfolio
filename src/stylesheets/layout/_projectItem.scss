@@ -59,7 +59,7 @@
     text-decoration: none;
     color: #2b2b2b;
     &:hover{
-        color: #72D0C2;
+        color: rgb(160, 102, 102);
     }
 }
 .item__wrapper--img{
@@ -101,7 +101,7 @@
     transition: background-color ease 1s;
     text-align: center;
     &:hover{
-        background-color: #C4FCEF;
+        background-color: rgb(160, 102, 102);
         border-radius: 10px;
     }
 }

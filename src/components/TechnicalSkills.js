@@ -4,7 +4,7 @@ import softSkills from '../data/softSkills';
 
 const TechnicalSkills = () => {
     return (
-        <section className="skills__wrapper">
+        <section className="skills__wrapper" id="technicalSkills">
             <div className="skills__container">
                 <h2 className="skills__wrapper--title">Hard Skills</h2>
                 <ul className="skills__wrapper--list">

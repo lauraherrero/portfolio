@@ -1,7 +1,6 @@
 .skills__wrapper{
     padding: 20px;
-    background-image: radial-gradient(circle, #72d0c2, #82d8ca, #92e0d2, #a1e9da, #b0f1e3, #b0f1e3, #b0f1e3, #b0f1e3, #a1e9da, #92e0d2, #82d8ca, #72d0c2);
-
+    background-color: white;
     &--title {
         margin:0;
         text-align: center;
@@ -16,7 +15,7 @@
         justify-content: center;
     }
     &--item {
-        background-color: white;
+        background-color: rgb(160, 102, 102);
         border-radius: 15px;
         display: flex;
         flex-direction: column;

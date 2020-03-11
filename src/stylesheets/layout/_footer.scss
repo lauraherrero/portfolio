@@ -58,7 +58,7 @@
         margin: 25px;
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
-        color: #B8B8B9;
+        color: rgb(160, 102, 102);
     }
 }
 
@@ -74,7 +74,7 @@
     transition: background-color ease 1s;
     border-radius: 10px;
     &:hover{
-        color: #C4FCEF;
+        color: rgb(160, 102, 102);
         background-color: black;
         box-shadow: 0 8px 10px rgba(0, 0, 0, 0.4);
         transform: scale(1.2)

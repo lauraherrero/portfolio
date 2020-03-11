@@ -6,6 +6,10 @@ const data = [
         href: "#aboutMe",
     },
     {
+        itemName: "Skills",
+        href: "#technicalSkills",
+    },
+    {
         itemName: "Proyectos",
         href: "#projectList",
     },
