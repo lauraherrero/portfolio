@@ -18,25 +18,25 @@
     padding: 50px;
     display: flex;
     flex-direction: column;
-    // text-align: center;
-    // justify-content: center;
-    background-color: white;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../images/image.jpg');
+    background-size: cover;
+    background-position: bottom;
 }
 
 .hero__wrapper{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    text-align: start;
-    justify-content: center;
-    margin: auto;
-    // align-items: center;
+    width: 40%;
 }
 .hero__title{
     font-size: 60px;
     font-family: 'Noto Sans', sans-serif;
+    color: #151829;
+    margin-left: 50px;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
+    border-right: .15em solid #EE8927; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     //margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     animation: 
@@ -48,6 +48,7 @@
     overflow: hidden;
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
+    color: #151829;
     animation-name: fadeInUp;
     animation-duration: 5s;
     animation-delay: -1s;
