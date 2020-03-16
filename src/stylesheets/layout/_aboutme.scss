@@ -1,8 +1,7 @@
 .aboutme{
     width: 100%;
-    
     color: rgb(0, 0, 0);
-    padding: 20px;
+    padding: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -16,7 +15,7 @@
 .aboutme__content{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 60%;
     &--title{
         font-family: 'Merriweather Sans', sans-serif;
@@ -27,6 +26,7 @@
     &--text{
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 16px;
+    text-align: justify;
     }
     &--link{
         text-decoration: none;
