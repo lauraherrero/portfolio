@@ -34,9 +34,10 @@
     &--cv{
         border: 2px solid black;
         border-radius: 5px;
-        padding: 5px;
+        padding: 10px;
         &:hover{
             background-color: black;
+            color:#EE8927;
             opacity: 0.8;
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
         }

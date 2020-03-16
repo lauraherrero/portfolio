@@ -14,7 +14,9 @@
         justify-content: center;
     }
     &--item {
-        background-color: rgb(160, 102, 102);
+        //background-color: #c9c9c9;
+        border: 4px solid orange;
+        opacity: 0.8;
         border-radius: 15px;
         display: flex;
         flex-direction: column;

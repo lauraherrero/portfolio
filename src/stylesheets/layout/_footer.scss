@@ -58,7 +58,7 @@
         margin: 25px;
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
-        color: rgb(160, 102, 102);
+        color: #151829;
     }
 }
 
@@ -68,14 +68,15 @@
     justify-content: center;
     margin: 25px;
     padding: 8px;
+    color: #151829;
     animation-name: 'zoomIn';
     animation-duration: 2s;
     transition: color ease 1s;
     transition: background-color ease 1s;
     border-radius: 10px;
     &:hover{
-        color: rgb(160, 102, 102);
-        background-color: black;
+        color: black;
+        background-color: #EE8927;
         box-shadow: 0 8px 10px rgba(0, 0, 0, 0.4);
         transform: scale(1.2)
     }
