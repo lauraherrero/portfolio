@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05764b9771d863547bbf3524dd959950",
+    "revision": "d473db910905e87b1cbeec584d2cd375",
     "url": "./index.html"
   },
   {
-    "revision": "072d4f55ee2faf4a8425",
-    "url": "./static/css/main.cc5ed5cb.chunk.css"
+    "revision": "c40af4a44995ad00732c",
+    "url": "./static/css/main.bf710765.chunk.css"
   },
   {
     "revision": "a10cac4c8aafb534c97e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.f00819d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "072d4f55ee2faf4a8425",
-    "url": "./static/js/main.eb2268ed.chunk.js"
+    "revision": "c40af4a44995ad00732c",
+    "url": "./static/js/main.d8ea5277.chunk.js"
   },
   {
     "revision": "6983486f1a659f6f9771",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "87f29bee0451ffd3e7840d8a6865eeb6",
     "url": "./static/media/agile-scrum.87f29bee.png"
+  },
+  {
+    "revision": "054afc6f1ff77e6f4f3b12a7a9670bf0",
+    "url": "./static/media/api.054afc6f.png"
   },
   {
     "revision": "4e14da0dd8f285a902fa8bb22227bdda",
