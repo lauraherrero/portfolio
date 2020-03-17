@@ -48,7 +48,7 @@ const hardSkills = [
     {
       id: 10,
       name: "API REST",
-      img: require("../images/hardSkills/api.jpg"),
+      img: require("../images/hardSkills/api.png"),
     },
     {
       id: 11,
