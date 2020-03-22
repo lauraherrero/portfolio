@@ -32,7 +32,7 @@ const projectsData = [
         name: "B-series Territory",
         img: require("../images/projectos/series.png"),
         description: "Buscador de series con posibilidad de crear una lista de favoritos. Realizada con Javascript y SASS.",
-        url: "http://beta.adalab.es/evaluacion-final-modulo-1-lauraherrero/",
+        url: "http://beta.adalab.es/modulo-2-evaluacion-final-lauraherrero/",
     },
     {
         id: 6,
@@ -46,7 +46,7 @@ const projectsData = [
         name: "Front-walkers",
         img: require("../images/projectos/front-walkers.png"),
         description: "Web responsive corporativa. Realizada con HTML, SASS y CSS.",
-        url: "http://beta.adalab.es/evaluacion-final-modulo-1-lauraherrero/",
+        url: "http://beta.adalab.es/project-promo-h-module-1-team-2-afternoon-sprint-2-/",
     },
     {
         id: 8,
