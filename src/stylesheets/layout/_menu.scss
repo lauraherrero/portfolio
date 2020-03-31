@@ -1,87 +1,112 @@
 .Menu {
-    background-image: url("../../images/bars-tag.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60% auto;
-  }
+  background-image: url("../../images/bars-tag.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60% auto;
+}
   
-  .Menu__close {
-    background-image: url("../../images/close-tag.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60% auto;
+.Menu__close {
+  background-image: url("../../images/close-tag.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60% auto;
+}
+
+.btn {
+  top: rem(20);
+  left: rem(20);
+  width: rem(35);
+  height: rem(35);
+  background-color: transparent;
+  color: $color-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  border: 2px solid $color-orange;
+  cursor: pointer;
+  transition: all 0.8s;
+  border-radius: rem(5);
+  &:hover {
+    background-color: $color-orange;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
   }
-  
-  .btn {
-    top: 10px;
-    left: 10px;
-    width: 40px;
-    height: 40px;
-    background-color: transparent;
-    color: #fff;
-    display: flex;
+  &:focus{
+    outline: none;
+  }
+  @include media($tablet){
+    width: rem(40);
+    height: rem(40);
+    border-radius: rem(5);
+    border: none;  
+  }
+}
+
+.hide {
+  transform: translateX(-100%);
+  transition: transform 1s;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 35vh;
+  width: rem(100);
+  background-color: $color-background-menu;
+  @include media($tablet){
+    width: rem(200);
+    height: 100vh;  
     justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 10;
-    cursor: pointer;
-    transition: all 0.8s;
-    border: none;
-    border-radius: 5px;
-    &:hover {
-      background-color: #EE8927;
-      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
-    }
   }
-  
-  .hide {
-    transform: translateX(-100%);
-    transition: transform 1s;
-    position: absolute;
-    z-index: 5;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+}
+
+.show {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 35vh;
+  width: rem(100);
+  background-color: $color-background-menu;
+  transform: translateX(0);
+  transition: transform ease 1s;
+  @include media($tablet){
+    width: rem(150);
     height: 100vh;
-    width: 200px;
-    background-color: #292940eb;
-  }
-  
-  .show {
-    position: fixed;
-    z-index: 5;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-    width: 200px;
-    background-color: #292940eb;
-    transform: translateX(0%);
-    transition: transform ease 1s;
   }
+  @include media($desktop){
+    width: rem(200);
+  }
+}
+
+.Menu__item {
+  margin: rem(25);
+  font-family: 'Noto Sans', sans-serif;
+  font-size: rem(12);
+  &--link{
+      text-decoration: none;
+  }
+  &:hover {
+    transform: scale(1.1);
+    transition: transform ease 0.3s;
+  }
+  @include media($tablet){
+    font-size: rem(18);
+    margin: rem(70);             
+  }
+  @include media($desktop){
+    font-size: rem(20); 
+    margin: rem(50);      
+  }
+
+}
   
-  .Menu__item {
-    color: white;
-    margin: 50px;
-    font-family: 'Noto Sans', sans-serif;
-    &--link{
-        text-decoration: none;
-    }
-    &:hover {
-      color: #fff;
-      transform: scale(1.1);
-      transition: transform ease 0.3s;
-    }
-    @media all and (min-width: 768px) {
-      font-size: 18px;
-    }
-    @media all and (min-width: 1024px) {
-      font-size: 20px;
-    }
-  }

@@ -1,44 +1,71 @@
 .aboutme{
     width: 100%;
-    color: rgb(0, 0, 0);
-    padding: 50px;
+    color: $color-black;
+    padding: rem(20);
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    @include media($tablet){
+        flex-direction: row;
+        justify-content: center;
+        padding: rem(30);
+    }
+
     &__photo{
-        width: 350px;
-        height: 300p;
-        border-radius: 15px;
-        margin-right: 45px;
+        width: rem(200);
+        height: rem(200);
+        border-radius: rem(15);
+        @include media($tablet){
+            width: rem(300);
+            height: rem(320);
+            margin-right: rem(45);
+        }
+        @include media($desktop){
+            width: rem(350);
+            height: rem(400);
+        }
     }
 }
 .aboutme__content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 60%;
+    justify-content: space-around;
+    @include media ($desktop){
+        width: 65%;
+    }
     &--title{
         font-family: 'Merriweather Sans', sans-serif;
-        font-size: 30px;
-        margin: 0;
-        color: rgb(0, 0, 0);
+        font-size: rem(29);
+        margin-bottom: 0;
+        color: $color-black;
+        @include media($tablet){
+            font-size: rem(30);
+            margin: 0;
+        }
     }
     &--text{
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 16px;
+    font-size: rem(14);
     text-align: justify;
+    @include media ($desktop){
+        font-size: rem(16);
+    }
     }
     &--link{
         text-decoration: none;
+        margin-top: 15px;
+        align-self: center;
+        @include media ($tablet){
+            align-self: flex-start;
+        }
     }
     &--cv{
-        border: 2px solid black;
-        border-radius: 5px;
-        padding: 10px;
-        margin-top: 10px;
+        border: 2px solid $color-black;
+        border-radius: rem(5);
+        padding: rem(10);
         &:hover{
-            background-color: black;
-            color:#EE8927;
+            background-color: $color-black;
+            color:$color-orange;
             opacity: 0.8;
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
         }

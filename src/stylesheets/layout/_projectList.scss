@@ -2,22 +2,39 @@
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: rem(20);
+    @include media ($desktop){
+        padding: rem(30);
+    }
 
     &--title{
         margin: 0;
-        padding: 20px;
-        padding-bottom: 50px;
+        padding: rem(30) 0 rem(20);
         font-family: 'Noto Sans', sans-serif;
-        font-size: 40px;
+        font-size: rem(35);
         text-align: center;
+        @include media($tablet){
+            font-size: rem(40);
+        }
+    }
+    &--content{
+        margin-bottom: 50px;
+    }
+    &--content:last-child{
+        margin-bottom: 0;
     }
    
 }
 .item__bar{
-    border-bottom: 2px solid #252525;
-    width: 300px;
-    align-items: center;
-    margin-left: 140px;
+    border-bottom: 2px solid $color-title;
+    width: rem(200);
+    margin: auto;
+    @include media ($tablet){
+        width: rem(250);
+        margin-left: rem(50);
+    }
+    @include media ($desktop){
+        width: rem(300);
+        margin-left: rem(140);
+    }
 }

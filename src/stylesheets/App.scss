@@ -2,9 +2,12 @@
 @import 'vendors/normalize';
 
 //Core
-//@import 'core/variables';
+@import 'core/functions.scss';
+@import 'core/mixins.scss';
+@import 'core/variables';
 
 //Layout
+@import 'layout/base';
 @import 'layout/menu';
 @import 'layout/aboutme';
 @import 'layout/skills';
@@ -12,8 +15,6 @@
 @import 'layout/projectItem';
 @import 'layout/footer';
 
-//Pages
-
 //Components
 @import 'components/hero';
-//@import 'components/buttons';
+@import 'components/animations';

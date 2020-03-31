@@ -1,71 +1,78 @@
-@keyframes fadeInUp {
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 200px, 0);
-      transform: translate3d(0, 200px, 0);
-    }
-  
-    to {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-}
-
 .hero{
-    width: 100%;
-    height: 100vh;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url('../../images/image.jpg');
-    background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../images/image.jpg');
+  background-size: cover;
+  background-position: right;
+  @include media($tablet){
+    padding: rem(30);
     background-position: bottom;
-}
-
-.hero__wrapper{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-}
-.hero__title{
-    font-size: 60px;
+  }
+  @include media($desktop){
+    padding: rem(50);
+    background-position: right;
+  }
+  &__wrapper{
+    width: 65%;
+    @include media($tablet){
+      width: 50%;
+    }
+  }
+  &__title{
+    font-size: rem(30);
     font-family: 'Noto Sans', sans-serif;
-    color: #151829;
-    margin-left: 50px;
+    color: $color-darkBlue;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #EE8927; /* The typwriter cursor */
+    border-right: .15em solid $color-orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    //margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     animation: 
       typing 3s steps(40, end),
       blink-caret .75s step-end infinite;
-}
-
-.hero__position{
+    @include media($tablet){
+      font-size: rem(45);
+    }
+    @include media($desktop){
+      font-size: rem(60); 
+      margin-left: rem(30);
+      text-align: start;
+    }
+  }
+  &__position{    
+    text-align: start;
     overflow: hidden;
-    font-size: 50px;
+    font-size: rem(20);
     font-family: 'Montserrat', sans-serif;
-    color: #151829;
+    color: $color-darkBlue;
     animation-name: fadeInUp;
     animation-duration: 5s;
     animation-delay: -1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
+    @include media($tablet){
+      font-size: rem(34);
+    }
+    @include media($desktop){
+      font-size: rem(44);
+      text-align: start; 
+    }
+  }
+  &__bar{
+    display: none;
+    @include media($tablet){
+      display: block;
+      border-bottom: 2px solid #252525;
+      width: 30px;
+      margin: auto;    
+    }
+    @include media ($desktop){
+      display: none;
+    }
+  }
 }
+  
 
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-  }

@@ -1,40 +1,54 @@
 .skills__wrapper{
-    padding: 20px;
+    padding: rem(20);
+    @include media($desktop){
+        padding: rem(30);
+    }
     &--title {
         margin:0;
         text-align: center;
-        padding-bottom: 20px;
+        padding: rem(30) 0 rem(20);
         font-family: 'Merriweather Sans', sans-serif;
-        font-size: 40px;
+        font-size: rem(35);
+        @include media($tablet){
+            font-size: rem(40);
+        }
     }
     &--list {
         display: grid;
-        grid-template-columns: repeat(auto-fit, 300px);
-        grid-gap: 8px;
+        grid-template-columns: repeat(auto-fit, 200px);
+        grid-gap: rem(5);
         justify-content: center;
+        @include media($tablet){
+            grid-gap: rem(10);
+        }
+        @include media($desktop){
+            grid-gap: rem(8);
+            grid-template-columns: repeat(auto-fit, 300px);
+        }
     }
     &--item {
-        //background-color: #c9c9c9;
-        border: 4px solid orange;
+        border: 4px solid $color-orange;
         opacity: 0.8;
-        border-radius: 15px;
+        border-radius: rem(15);
         display: flex;
         flex-direction: column;
         align-items: center;
         font-weight: 700;
-        padding: 10px;
-        margin:8px;
-        color: black;
-        width: 280px; 
-        font-size: 17px;
+        padding: rem(5);
+        margin: rem(8);
+        color: $color-black;
+        font-size: rem(17);
         font-family: 'Merriweather', sans-serif;
+        @include media($tablet){
+            padding: rem(8);
+        }
+        @include media ($desktop){
+            padding: rem(10);
+        }
     }
     &--logo {
-        height: 60px;
+        height: rem(60);
         width: auto;
-        margin: 3px;
+        margin: rem(3);
     }
-}
-.skills__container{
-    padding: 30px;
 }
