@@ -9,8 +9,8 @@
   background-image: url("../../images/close-tag.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 40% auto;
-  transform: rotate(90deg);
+  background-size: 35% auto;
+  transform: rotate(270deg);
 }
 
 .btn {
@@ -39,7 +39,6 @@
   @include media($tablet){
     width: rem(40);
     height: rem(40);
-    border-radius: rem(5);
     border: none;  
   }
 }
