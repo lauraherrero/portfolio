@@ -16,11 +16,6 @@
     padding: rem(50);
     background-position: right;
   }
-  &__wrapper{
-    @include media($tablet){
-      width: 50%;
-    }
-  }
   &__title{
     font-size: rem(30);
     font-family: 'Noto Sans', sans-serif;
@@ -28,6 +23,7 @@
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid $color-orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     animation: 
       typing 3s steps(40, end),
       blink-caret .75s step-end infinite;
@@ -60,16 +56,10 @@
     }
   }
   &__bar{
-    display: none;
-    @include media($tablet){
-      display: block;
-      border-bottom: 2px solid #252525;
-      width: 30px;
-      margin: auto;    
-    }
-    @include media ($desktop){
-      display: none;
-    }
+    display: block;
+    border-bottom: 2px solid #252525;
+    width: 30px;
+    margin: rem(28) auto; 
   }
 }
   
