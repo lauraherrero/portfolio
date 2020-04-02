@@ -1,6 +1,5 @@
 import React from 'react';
 import contacts from '../data/contacts';
-import menu from '../data/menu';
 
 const Footer = () => {
     return (
@@ -15,19 +14,6 @@ const Footer = () => {
                                     <a href={item.url} target="_blank" rel="noopener noreferrer" >
                                         <i className={item.icon}></i>
                                     </a>
-                                </li>
-                            )
-                        })
-                    }
-                </ul>
-            </nav>
-            <nav>
-                <ul className="contact__wrapper--menu">
-                    {
-                        menu.map((item, index) => {
-                            return (
-                                <li key={index}>
-                                    <a className="contact__wrapper--text" href={item.href}>{item.itemName}</a>
                                 </li>
                             )
                         })

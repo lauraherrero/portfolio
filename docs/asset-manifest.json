@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.f393e32c.chunk.css",
-    "main.js": "./static/js/main.93b384ba.chunk.js",
-    "main.js.map": "./static/js/main.93b384ba.chunk.js.map",
+    "main.css": "./static/css/main.928bb777.chunk.css",
+    "main.js": "./static/js/main.26d25936.chunk.js",
+    "main.js.map": "./static/js/main.26d25936.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.87aa16b9.js",
     "runtime-main.js.map": "./static/js/runtime-main.87aa16b9.js.map",
     "static/js/2.f00819d4.chunk.js": "./static/js/2.f00819d4.chunk.js",
     "static/js/2.f00819d4.chunk.js.map": "./static/js/2.f00819d4.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.d4720c8e294714400a0ca71ba9329871.js": "./precache-manifest.d4720c8e294714400a0ca71ba9329871.js",
+    "precache-manifest.818d8745db13f40b53b423298fa67050.js": "./precache-manifest.818d8745db13f40b53b423298fa67050.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.f393e32c.chunk.css.map": "./static/css/main.f393e32c.chunk.css.map",
+    "static/css/main.928bb777.chunk.css.map": "./static/css/main.928bb777.chunk.css.map",
     "static/js/2.f00819d4.chunk.js.LICENSE.txt": "./static/js/2.f00819d4.chunk.js.LICENSE.txt",
-    "static/media/CV_LauraHerrero.pdf": "./static/media/CV_LauraHerrero.d98218c4.pdf",
+    "static/media/CV_LauraHerrero.pdf": "./static/media/CV_LauraHerrero.fed80ac9.pdf",
     "static/media/adaptabilidad.png": "./static/media/adaptabilidad.11d1b611.png",
     "static/media/agile-scrum.png": "./static/media/agile-scrum.87f29bee.png",
     "static/media/api.png": "./static/media/api.054afc6f.png",
     "static/media/awesome-cover.png": "./static/media/awesome-cover.4e14da0d.png",
     "static/media/awesome-profile.png": "./static/media/awesome-profile.36a9c012.png",
+    "static/media/b-series.png": "./static/media/b-series.57853553.png",
     "static/media/App.scss": "./static/media/image.92be599f.jpg",
     "static/media/bootstrap.png": "./static/media/bootstrap.bd476acf.png",
     "static/media/css.svg": "./static/media/css.c64430b2.svg",
@@ -36,14 +37,13 @@
     "static/media/react.png": "./static/media/react.47ce6e77.png",
     "static/media/rick-morty.jpg": "./static/media/rick-morty.3e5a5bf1.jpg",
     "static/media/sass.svg": "./static/media/sass.0ac16e33.svg",
-    "static/media/series.png": "./static/media/series.ad3ff0c7.png",
     "static/media/trello.svg": "./static/media/trello.1ce6bc2d.svg",
     "static/media/visual-studio.svg": "./static/media/visual-studio.94115de5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.87aa16b9.js",
     "static/js/2.f00819d4.chunk.js",
-    "static/css/main.f393e32c.chunk.css",
-    "static/js/main.93b384ba.chunk.js"
+    "static/css/main.928bb777.chunk.css",
+    "static/js/main.26d25936.chunk.js"
   ]
 }

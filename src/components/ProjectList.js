@@ -15,7 +15,8 @@ const ProjectList = () => {
                                     img={project.img}
                                     name={project.name}
                                     description={project.description}
-                                    url={project.url}
+                                    urlDemo={project.urlDemo}
+                                    urlCode={project.urlCode}
                                 />
                                 <div className="item__bar" />
                             </li>

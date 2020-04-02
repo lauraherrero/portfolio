@@ -17,11 +17,11 @@
         border-radius: rem(15);
         @include media($tablet){
             width: rem(300);
-            height: rem(320);
+            height: rem(300);
             margin-right: rem(45);
         }
         @include media($desktop){
-            width: rem(350);
+            width: rem(400);
             height: rem(400);
         }
     }
@@ -36,24 +36,30 @@
     &--title{
         font-family: 'Merriweather Sans', sans-serif;
         font-size: rem(29);
-        margin-bottom: 0;
+        margin: rem(30) rem(10) rem(15);
         color: $color-black;
         @include media($tablet){
             font-size: rem(30);
             margin: 0;
+            margin-bottom: rem(25);
         }
     }
     &--text{
-    font-family: 'Merriweather Sans', sans-serif;
     font-size: rem(14);
     text-align: justify;
+    line-height: rem(30);
+    margin: rem(10);
+    @include media ($tablet){
+        margin: rem(10) rem(10) rem(10) 0; 
+    }
     @include media ($desktop){
-        font-size: rem(16);
+        font-size: rem(18);
+        line-height: rem(32);
     }
     }
     &--link{
         text-decoration: none;
-        margin-top: 15px;
+        margin-top: rem(45);
         align-self: center;
         @include media ($tablet){
             align-self: flex-start;
@@ -62,10 +68,12 @@
     &--cv{
         border: 2px solid $color-black;
         border-radius: rem(5);
-        padding: rem(10);
+        padding: rem(20) rem(50);
+        font-size: 18px;
+        font-family: 'Merriweather', sans-serif;
         &:hover{
             background-color: $color-black;
-            color:$color-orange;
+            color:$color-white;
             opacity: 0.8;
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
         }

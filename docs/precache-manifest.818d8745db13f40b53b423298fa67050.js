@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ded66f4def58b3e86687893e9cf015c",
+    "revision": "918ea54303d5766b3c6995a4c3a2e2bb",
     "url": "./index.html"
   },
   {
-    "revision": "a430e9f718021fd9d019",
-    "url": "./static/css/main.f393e32c.chunk.css"
+    "revision": "960af4222d5a960fbda6",
+    "url": "./static/css/main.928bb777.chunk.css"
   },
   {
     "revision": "a10cac4c8aafb534c97e",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.f00819d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a430e9f718021fd9d019",
-    "url": "./static/js/main.93b384ba.chunk.js"
+    "revision": "960af4222d5a960fbda6",
+    "url": "./static/js/main.26d25936.chunk.js"
   },
   {
     "revision": "6983486f1a659f6f9771",
     "url": "./static/js/runtime-main.87aa16b9.js"
   },
   {
-    "revision": "d98218c41c5993b74e7cb7c119887e28",
-    "url": "./static/media/CV_LauraHerrero.d98218c4.pdf"
+    "revision": "fed80ac913a6bd2298b94c0c9eb81b08",
+    "url": "./static/media/CV_LauraHerrero.fed80ac9.pdf"
   },
   {
     "revision": "11d1b611722ab9b593403fd2852e2318",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "36a9c012a6fbe0f8270fe9e1e45a3681",
     "url": "./static/media/awesome-profile.36a9c012.png"
+  },
+  {
+    "revision": "578535539dfc3fd0d32974bdd4ca0b59",
+    "url": "./static/media/b-series.57853553.png"
   },
   {
     "revision": "b3f49afdaa769bc2cb267d590e308ae0",
@@ -126,10 +130,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0ac16e3354e8e21a67c9cd5f97926a1a",
     "url": "./static/media/sass.0ac16e33.svg"
-  },
-  {
-    "revision": "ad3ff0c729f9ddfaebcba614c7f0ebbc",
-    "url": "./static/media/series.ad3ff0c7.png"
   },
   {
     "revision": "1ce6bc2de452d5db12c42fde54d84d03",

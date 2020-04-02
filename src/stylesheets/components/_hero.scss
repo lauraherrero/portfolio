@@ -17,7 +17,6 @@
     background-position: right;
   }
   &__wrapper{
-    width: 65%;
     @include media($tablet){
       width: 50%;
     }
@@ -37,7 +36,6 @@
     }
     @include media($desktop){
       font-size: rem(60); 
-      margin-left: rem(30);
       text-align: start;
     }
   }
