@@ -26,7 +26,7 @@
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     animation: 
       typing 3s steps(40, end),
-      blink-caret .75s step-end infinite;
+      blink-caret .5s step-end infinite;
     @include media($tablet){
       font-size: rem(45);
     }

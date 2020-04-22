@@ -67,7 +67,7 @@
     animation-duration: 2s;
     transition: color ease 1s;
     transition: background-color ease 1s;
-    border-radius: rem(10);
+    border-radius: 50%;
     &:hover{
         color: $color-black;
         background-color: $color-orange;
